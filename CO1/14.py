@@ -1,4 +1,4 @@
-number=int(input("enter the number:"))
-num=str(number)
-for i in range(0,3):
-    print(num)
+n=int(input("enter the integer:"))
+nn=n*10+n
+nnn=nn*10+n
+print(n,"+",nn,"+",nnn,"=",n+nn+nnn)
